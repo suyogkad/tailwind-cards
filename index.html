@@ -10,10 +10,11 @@
         body {
             background-color: #222;
             color: white;
+            overflow: hidden;
         }
         .card {
             width: 100px;
-            height: 150px;
+            height: 130px;
             background-color: #FFF;
             border-radius: 8px;
             padding: 10px;
@@ -28,11 +29,65 @@
         .heart {
             color: red;
         }
+        .diamond{
+            color: red;
+        }
+        .spade span{
+            font-size: 24px;
+        }
+        .club span{
+            font-size: 24px;
+        }
     </style>
 </head>
-<body class="flex flex-wrap justify-center items-top h-screen p-4">
+<body>
+    <!-- spades -->
+<div class="flex flex-wrap justify-center items-top p-4">
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> A</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 2</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 3</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 4</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 5</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 6</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 7</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 8</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 9</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> 10</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> J</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> Q</h2>
+    </div>
+    <div class="card">
+        <h2 class="spade"><span>&#x2660;</span> K</h2>
+    </div>
+</div>
+<div class="flex flex-wrap justify-center items-top p-4">
     <div class="text-center mb-10">
     </div>
+    
+    <!-- Hearts -->
     <div class="card">
         <h2 class="heart">♥️ A</h2>
     </div>
@@ -72,9 +127,97 @@
     <div class="card">
         <h2 class="heart">♥️ K</h2>
     </div>
-    <!-- Footer -->
-    <!-- <footer class="bg-red-600 p-4 text-center text-white fixed bottom-0 w-full">
-        <p>&copy; 2023 Casino Royale</p>
-    </footer> -->
+</div>
+
+<!-- Clubs -->
+<div class="flex flex-wrap justify-center items-top p-4">
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> A</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 2</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 3</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 4</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 5</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 6</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 7</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 8</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 9</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> 10</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> J</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> Q</h2>
+    </div>
+    <div class="card">
+        <h2 class="club"><span>&#x2663;</span> K</h2>
+    </div>
+</div>
+
+<!-- Diamonds -->
+<div class="flex flex-wrap justify-center items-top p-4">
+    <div class="card">
+        <h2 class="diamond">♦️ A</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 2</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 3</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 4</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 5</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 6</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 7</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 8</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 9</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ 10</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ J</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ Q</h2>
+    </div>
+    <div class="card">
+        <h2 class="diamond">♦️ K</h2>
+    </div>
+</div>
+
+
+
+
+
 </body>
 </html>
